@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-panel-116"
+  short_description: "Pale paper-ground pastel-crayon doodles with coarse contours, sparse symbols, and generous whitespace."
+  default_prompt: "Use $xxd-panel-116 on one image or image directory. Treat its Chinese original brief as the sole aesthetic authority, keep paired modes strict 50:50 with no third band, isolate every source, and create fresh complete-canvas PNG outputs."
+
+policy:
+  allow_implicit_invocation: true
