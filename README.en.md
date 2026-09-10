@@ -49,6 +49,26 @@ What makes a photograph memorable is often not its information density, but one 
 - **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
 - **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
 
+## Getting started
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-116.git
+npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
+```
+
+Restart the agent session after installation, then invoke `$xxd-panel-116`. Add `--global --agent codex --yes` when a user-level Codex installation is wanted.
+
+Common examples:
+
+```text
+/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale en-US
+/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-116 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
+```
+
+See [SKILL.md](SKILL.md) for the full runtime contract and the [English](references/xxd-panel-116-prompt.en.md) or [Chinese](references/xxd-panel-116-prompt.zh-CN.md) runtime adapter.
+
 ## Original prompt · five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -74,26 +94,6 @@ The Chinese file preserves the user's original prompt verbatim and is the sole r
 - `wallpaper-pack`: creates complete artworks for phone, iPad, desktop, and watch, either `linked` as a coherent family or `independent` as four separate works.
 
 Modes and sizes may be combined. Supported sizes include `1:1`, `3:4`, `4:3`, `4:5`, `5:4`, `2:3`, `3:2`, `9:16`, `16:9`, `21:9`, `5:7`, `7:5`, and exact pixels. Text can be prompt-generated, user-exact, or absent. A directory is inventoried recursively and every source is isolated while sharing one set of delivery settings; final PNG files remain flat in one fresh task directory.
-
-## Getting started
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-116.git
-npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
-```
-
-Restart the agent session after installation, then invoke `$xxd-panel-116`. Add `--global --agent codex --yes` when a user-level Codex installation is wanted.
-
-Common examples:
-
-```text
-/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale en-US
-/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
-/xxd-panel-116 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
-```
-
-See [SKILL.md](SKILL.md) for the full runtime contract and the [English](references/xxd-panel-116-prompt.en.md) or [Chinese](references/xxd-panel-116-prompt.zh-CN.md) runtime adapter.
 
 <!-- xxd-readme-ads:start -->
 ## About XXD

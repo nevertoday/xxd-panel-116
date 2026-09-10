@@ -49,6 +49,23 @@
 - **وضّح منطقتي الواقع والتصميم:** في العلوي-السفلي أو اليسار-يمين، اذكر أي منطقة تحتفظ بالصورة وأيها يعاد تصميمها؛ وفي التصميم فقط والخلفيات اذكر أن اللوحة كلها يعاد تصميمها.
 - **اختبر صورة واحدة قبل المعالجة الدفعية:** أكّد النمط والنسبة والنص واللغة على صورة واحدة، ثم استخدم الإعدادات نفسها لمجلد كامل؛ غيّر متغيراً واحداً في كل جولة.
 
+## البدء
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-116.git
+npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
+```
+
+بعد التثبيت أعد تشغيل جلسة Agent ثم استدعِ `$xxd-panel-116`. ويمكن إضافة `--global --agent codex --yes` للتثبيت على مستوى المستخدم.
+
+```text
+/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ar-SA
+/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
+```
+
+راجع [SKILL.md](SKILL.md) لعقد التشغيل الكامل، ومهايئ التشغيل [بالإنجليزية](references/xxd-panel-116-prompt.en.md) أو [بالصينية](references/xxd-panel-116-prompt.zh-CN.md).
+
 ## الموجّه الأصلي · خمس لغات
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -74,23 +91,6 @@
 - `wallpaper-pack`: ينشئ عملاً كاملاً للهاتف وiPad وسطح المكتب والساعة، إما كعائلة `linked` أو أربعة أعمال `independent`.
 
 يمكن جمع الأنماط والأحجام. تشمل النسب `1:1` و`3:4` و`4:3` و`4:5` و`5:4` و`2:3` و`3:2` و`9:16` و`16:9` و`21:9` و`5:7` و`7:5` والبكسلات الدقيقة. يمكن أن يكون النص مولداً أو حرفياً من المستخدم أو غائباً. عند إدخال مجلد، تُعالج كل صورة بمعزل عن الأخرى مع إعدادات تسليم مشتركة، وتوضع ملفات PNG النهائية مباشرة في مجلد مهمة جديد واحد.
-
-## البدء
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-116.git
-npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
-```
-
-بعد التثبيت أعد تشغيل جلسة Agent ثم استدعِ `$xxd-panel-116`. ويمكن إضافة `--global --agent codex --yes` للتثبيت على مستوى المستخدم.
-
-```text
-/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ar-SA
-/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
-```
-
-راجع [SKILL.md](SKILL.md) لعقد التشغيل الكامل، ومهايئ التشغيل [بالإنجليزية](references/xxd-panel-116-prompt.en.md) أو [بالصينية](references/xxd-panel-116-prompt.zh-CN.md).
 
 <!-- xxd-readme-ads:start -->
 ## عن XXD

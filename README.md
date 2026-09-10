@@ -49,6 +49,26 @@
 - **说明现实区与设计区：** 上下或左右对照时，注明哪一侧保留照片、哪一侧负责设计转译；纯设计和壁纸则说明整张画布都要重新设计。
 - **先单张试，再批量做：** 先用一张图确认模式、比例、文字和语言，再把同一套参数用于目录批处理；每轮只改一个变量，结果更容易比较。
 
+## 开始使用
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-116.git
+npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
+```
+
+安装后重新启动 Agent 会话，然后调用 `$xxd-panel-116`。也可以按需追加 `--global --agent codex --yes` 做用户级安装。
+
+常用调用示例：
+
+```text
+/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale zh-CN
+/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
+/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-116 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
+```
+
+完整运行契约见 [SKILL.md](SKILL.md)；运行适配器见 [英文](references/xxd-panel-116-prompt.en.md) 与 [中文](references/xxd-panel-116-prompt.zh-CN.md)。
+
 ## 原始提示词 · 五种语言
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -74,26 +94,6 @@
 - `wallpaper-pack`：按手机、iPad、桌面和手表分别生成完整设计壁纸，可选 `linked` 连贯套装或 `independent` 四张独立。
 
 支持多选模式与比例（`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5` 或准确像素），以及模型生成文字、准确文字和无文字。传入目录会递归扫描图片，每张源图独立处理，共用一次交付设置；最终 PNG 平铺放入一个新任务目录。
-
-## 开始使用
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-116.git
-npx skills add https://github.com/nevertoday/xxd-panel-116 --skill xxd-panel-116
-```
-
-安装后重新启动 Agent 会话，然后调用 `$xxd-panel-116`。也可以按需追加 `--global --agent codex --yes` 做用户级安装。
-
-常用调用示例：
-
-```text
-/xxd-panel-116 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale zh-CN
-/xxd-panel-116 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-116 photo.jpg --mode design-only --size 9:16 --text none
-/xxd-panel-116 ./photos --mode design-only --size auto,3:4 --text prompt --locale ja-JP
-```
-
-完整运行契约见 [SKILL.md](SKILL.md)；运行适配器见 [英文](references/xxd-panel-116-prompt.en.md) 与 [中文](references/xxd-panel-116-prompt.zh-CN.md)。
 
 <!-- xxd-readme-ads:start -->
 ## 关于 XXD
