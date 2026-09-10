@@ -8,19 +8,36 @@
 
 </div>
 
-## عرض النماذج
+## نماذج 16:9 يسار–يمين
 
-本项目已发布 8 张实际样片，图片文件位于 `assets/examples/`。
+أربع مصادر مستقلة على لوحة 16:9 مكتملة: الواقع يساراً وتصميم هذا اللوح يميناً، مناصفة دقيقة 50:50.
 
-| sample-05 | sample-06 |
-| --- | --- |
-| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
-| sample-07 | sample-08 |
-| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
-| sample-09 | sample-10 |
-| ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
-| sample-11 | sample-12 |
-| ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 116 Sample 5"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 116 Sample 6"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 116 Sample 7"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 116 Sample 8"></td>
+  </tr>
+</table>
+
+## نماذج 3:4 أعلى–أسفل
+
+أربع مصادر أخرى مستقلة، مختلفة عن مجموعة 16:9، بلوحة 3:4 مكتملة: الواقع أعلى والتصميم أسفل، مناصفة دقيقة 50:50.
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 116 additional top-bottom sample 1"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 116 additional top-bottom sample 2"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 116 additional top-bottom sample 3"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 116 additional top-bottom sample 4"></td>
+  </tr>
+</table>
+
 
 ## الحالات المناسبة والمشكلات التي يحلها
 

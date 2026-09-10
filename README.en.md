@@ -8,19 +8,36 @@ Leave the photograph with a clear contour, easy colour, and a paper field that c
 
 </div>
 
-## Sample works
+## 16:9 Left–Right Samples
 
-本项目已发布 8 张实际样片，图片文件位于 `assets/examples/`。
+Four independent sources on complete 16:9 canvases: reality left, this Panel's design right, exact 50:50. English copy is generated from each photograph.
 
-| sample-05 | sample-06 |
-| --- | --- |
-| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
-| sample-07 | sample-08 |
-| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
-| sample-09 | sample-10 |
-| ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
-| sample-11 | sample-12 |
-| ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 116 Sample 5"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 116 Sample 6"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 116 Sample 7"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 116 Sample 8"></td>
+  </tr>
+</table>
+
+## 3:4 Top–Bottom Samples
+
+Four further independent sources, different from the 16:9 set, regenerated as complete 3:4 top–bottom canvases. The original photograph remains above; the lower design follows this Panel's original brief.
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 116 additional top-bottom sample 1"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 116 additional top-bottom sample 2"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 116 additional top-bottom sample 3"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 116 additional top-bottom sample 4"></td>
+  </tr>
+</table>
+
 
 ## Best-fit situations and problems solved
 
