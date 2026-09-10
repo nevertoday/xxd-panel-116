@@ -40,6 +40,15 @@ What makes a photograph memorable is often not its information density, but one 
 - Holds paired layouts to exactly two 50:50 regions with no title band, footer, or third section.
 - Generates directly from each current original source, never from a sample, an intermediate result, or another Panel's output.
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -56,21 +65,6 @@ The Chinese file preserves the user's original prompt verbatim and is the sole r
 | Recognition after abstraction? | It preserves the core theme, subject relationships, contour flow, pose, and colour memory first. |
 | Pastels that do not turn grey? | A very pale ground, clear coloured lines, and a few soft blocks maintain readable contrast. |
 | Flexible delivery sizes? | Common ratios, exact pixels, four modes, and directory batches are supported. |
-
-## Transformation logic
-
-```text
-understand theme and relationships → distil contour, pose, direction, and emotion → remove secondary detail → rebuild with coarse crayon lines and sparse pastel blocks → place on pale paper with minimal doodle symbols → finish with whitespace and restrained mechanical type
-```
-
-## Recognisable finished traits
-
-- A very pale, bright, clean near-white paper ground stays visibly lighter than all lines and colour areas.
-- Subject contours are coarse, relaxed, dry, powdery, intermittently faded, slightly shaky, and incompletely closed.
-- Surrounding symbols use one or only a few strokes; they never become polished icons, stickers, or standalone mini-illustrations.
-- The subject remains small, off-centre, edge-adjacent, suspended, or locally cropped while whitespace actively composes the page.
-- Two to four vivid, friendly colours distilled from the source become a bright, soft pastel-crayon palette.
-- Sparse text uses airy, slightly irregular vintage mechanical typography rather than a fixed title template.
 
 ## Four output modes
 
