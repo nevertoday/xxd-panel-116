@@ -1,0 +1,119 @@
+{
+  "skill_description": "XXD Panel 116｜Pale-Paper Pastel Doodle Chronicle: redraws the core subject and mood of a photo as a pastel crayon doodle on very pale paper — loose, dry, slightly thick chalk or crayon outlines with powdery grain, broken colour, a light wobble and open edges, a few pastel patches, grids, stripes or dots inside, tiny one- or two-stroke doodles nearby, a small subject in large open space, a cream or near-white ground always lighter than the lines so everything stays legible, two to four soft pastels from the photo, and a few thin typewriter-style words. Dark kraft or brown grounds are avoided. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-116 or asks for pale-paper pastel doodle or crayon outline art from a photo.",
+  "short_description": "浅纸粉彩涂鸦志：在极浅纸面上用粗颗粒彩色蜡笔线画出照片主体，配几笔小涂鸦",
+  "zh-CN": {
+    "name": "浅纸粉彩涂鸦志",
+    "tagline": "在一张很浅的纸上，用粗颗粒彩色蜡笔线留下照片清楚的轮廓。",
+    "look": "主体用略粗、松弛、干涩的粉笔或蜡笔线勾出，带粉末颗粒、断续掉色和轻微抖动，笔头圆钝，轮廓不完全闭合；内部只点几块粉彩色、简单网格、条纹或圆点。旁边的星星、花朵、器物等小元素用同样的线条一两笔画成，开放、稚拙、几乎不填色。纸面是奶油白、象牙白这类极浅干净的底色，明显比线条亮，所有线和字都清楚可见。主体很小，四周是大片留白。颜色取照片里二到四种，调成蜜桃粉、杏橙、薄荷青、天空蓝、淡紫等明亮粉彩。文字是轻薄的打字机字，用柔黑或深蓝灰散落在留白里。",
+    "traits": [
+      "极浅纸面",
+      "粗颗粒彩线",
+      "极简涂鸦",
+      "柔和粉彩",
+      "手工纸感",
+      "安静留白"
+    ],
+    "good": [
+      "轮廓简单、一笔就能勾出的主体：一只兔子、一盆仙人掌、一个热气球、一双鞋",
+      "轻松愉快的日常瞬间：吹泡泡、捧着花的人、晒太阳的猫",
+      "想做成清爽明亮的头像、贴纸、壁纸或小卡片的照片"
+    ],
+    "poor": [
+      "想要深色牛皮纸、暗棕或复古旧纸背景的需求，这一款的纸面始终很浅",
+      "需要精细描边、写实转绘或复杂小图标的照片",
+      "人多、景多、需要填满画面的大场景"
+    ]
+  },
+  "en": {
+    "name": "Pale-Paper Pastel Doodle Chronicle",
+    "tagline": "Leaves the clear outline of a photo on very pale paper in thick, grainy coloured crayon.",
+    "look": "The subject is outlined in slightly thick, loose, dry chalk or crayon lines with powdery grain, broken colour, a light wobble, blunt rounded ends and edges left open; inside are only a few pastel patches, simple grids, stripes or dots. Small nearby elements such as stars, flowers or objects are drawn in the same line with one or two strokes, open, naive and almost unfilled. The paper is a very pale, clean cream or ivory, clearly lighter than the lines, so every line and word stays easy to see. The subject is small, with wide open space around it. Two to four colours from the photo become bright pastels like peach, apricot, mint, sky blue and lavender. Text is light typewriter-style type in a soft black or deep blue-grey, scattered in the space.",
+    "traits": [
+      "Very pale paper",
+      "Grainy coloured line",
+      "Minimal doodles",
+      "Soft pastels",
+      "Handmade paper feel",
+      "Quiet whitespace"
+    ],
+    "good": [
+      "Simple subjects you could outline in one stroke: a rabbit, a cactus, a hot-air balloon, a pair of shoes",
+      "Light, happy everyday moments: blowing bubbles, someone holding flowers, a cat in the sun",
+      "Photos you want as a fresh, bright avatar, sticker, wallpaper or small card"
+    ],
+    "poor": [
+      "Requests for dark kraft, brown or aged-paper grounds, since the paper here always stays pale",
+      "Photos that need fine outlines, realistic tracing or detailed little icons",
+      "Big scenes full of people or places that would need a filled frame"
+    ]
+  },
+  "ja": {
+    "name": "淡紙パステル落書き誌",
+    "tagline": "ごく淡い紙の上に、粒の粗い色クレヨンの線で写真のはっきりした輪郭を残します。",
+    "look": "主役は少し太く、ゆるく、かさついたチョークやクレヨンの線で描かれ、粉っぽい粒子、途切れる色、かすかな揺れがあり、線の先は丸く、輪郭は閉じきりません。内側にはパステルの色を少し、簡単なマス目、ストライプ、水玉を置くだけです。そばの星や花、道具などの小さな要素も同じ線で一、二筆で描かれ、開いていて素朴で、ほとんど塗りません。紙はクリーム色やアイボリーのごく淡く清潔な地色で、線よりはっきり明るいので、線も文字もよく見えます。主役は小さく、まわりは広い余白です。色は写真から二〜四色を取り、ピーチ、アプリコット、ミント、空色、ラベンダーなどの明るいパステルにします。文字は軽いタイプライター風の書体で、柔らかな黒や濃い青灰色で余白に散らばります。",
+    "traits": [
+      "ごく淡い紙",
+      "粒の粗い色の線",
+      "ミニマルな落書き",
+      "柔らかなパステル",
+      "手漉き紙の風合い",
+      "静かな余白"
+    ],
+    "good": [
+      "一筆で描けるシンプルな主役：うさぎ、サボテン、気球、一足の靴",
+      "軽やかで楽しい日常の瞬間：シャボン玉、花を抱える人、日なたぼっこの猫",
+      "爽やかで明るいアイコン、ステッカー、壁紙、小さなカードにしたい写真"
+    ],
+    "poor": [
+      "濃いクラフト紙、茶色、古紙風の下地を求める場合（このスタイルの紙はいつも淡い色です）",
+      "細い描線、写実的ななぞり描き、細かなアイコンが必要な写真",
+      "人や景色が多く、画面を埋める必要がある大きな場面"
+    ]
+  },
+  "ko": {
+    "name": "옅은 종이 파스텔 낙서 기록",
+    "tagline": "아주 옅은 종이 위에 입자가 굵은 색 크레용 선으로 사진의 또렷한 윤곽을 남깁니다.",
+    "look": "주인공은 조금 굵고 느슨하며 마른 분필이나 크레용 선으로 그려지고, 가루 같은 입자, 끊기는 색, 가벼운 떨림이 있으며 선 끝은 뭉툭하게 둥글고 윤곽은 다 닫히지 않습니다. 안쪽에는 파스텔 색 몇 군데, 간단한 격자, 줄무늬, 물방울무늬만 둡니다. 옆의 별, 꽃, 사물 같은 작은 요소도 같은 선으로 한두 획에 그려 열려 있고 소박하며 거의 칠하지 않습니다. 종이는 크림색이나 아이보리처럼 아주 옅고 깨끗한 바탕으로 선보다 확실히 밝아서 선과 글자가 모두 잘 보입니다. 주인공은 작고 주위는 넓은 여백입니다. 색은 사진에서 두세 가지에서 네 가지를 골라 피치, 살구, 민트, 하늘색, 라벤더 같은 밝은 파스텔로 바꿉니다. 글자는 가벼운 타자기풍 서체로, 부드러운 검정이나 짙은 청회색으로 여백에 흩어집니다.",
+    "traits": [
+      "아주 옅은 종이",
+      "입자 굵은 색선",
+      "미니멀 낙서",
+      "부드러운 파스텔",
+      "수제 종이 느낌",
+      "고요한 여백"
+    ],
+    "good": [
+      "한 획으로 그릴 수 있는 단순한 주인공: 토끼, 선인장, 열기구, 신발 한 켤레",
+      "가볍고 즐거운 일상의 순간: 비눗방울 불기, 꽃을 안은 사람, 햇볕 쬐는 고양이",
+      "산뜻하고 밝은 프로필, 스티커, 배경화면, 작은 카드로 쓰고 싶은 사진"
+    ],
+    "poor": [
+      "짙은 크라프트지, 갈색, 낡은 종이 바탕을 원하는 경우(이 스타일의 종이는 늘 옅습니다)",
+      "가는 윤곽선, 사실적 따라 그리기, 정교한 작은 아이콘이 필요한 사진",
+      "사람과 풍경이 많아 화면을 채워야 하는 큰 장면"
+    ]
+  },
+  "ar": {
+    "name": "سجلّ خربشات الباستيل على الورق الفاتح",
+    "tagline": "يترك المحيط الواضح للصورة على ورق شديد الفتوح بطباشير شمعي ملون خشن الحبيبات.",
+    "look": "يُحدَّد العنصر بخطوط طباشير أو طباشير شمعي سميكة قليلاً ومرتخية وجافة، فيها حبيبات مسحوقة ولون متقطع وارتجاف خفيف، بأطراف مستديرة كليلة وحواف غير مغلقة؛ وفي داخله بضع بقع باستيل أو شبكات بسيطة أو خطوط أو نقاط فقط. تُرسم العناصر الصغيرة القريبة، كالنجوم والأزهار والأشياء، بالخط نفسه في ضربة أو ضربتين، مفتوحة ساذجة شبه خالية من التلوين. الورق كريمي أو عاجي شديد الفتوح ونظيف، أفتح من الخطوط بوضوح، فتبقى كل الخطوط والكلمات سهلة الرؤية. العنصر صغير، يحيط به فراغ واسع مفتوح. تتحول لونان إلى أربعة من الصورة إلى باستيل زاهٍ كالخوخي والمشمشي والنعناعي والأزرق السماوي واللافندر. النص بحروف خفيفة على طريقة الآلة الكاتبة، بأسود ناعم أو رمادي مزرق داكن، متناثرة في الفراغ.",
+    "traits": [
+      "ورق شديد الفتوح",
+      "خط ملون خشن الحبيبات",
+      "خربشات بسيطة",
+      "باستيل ناعم",
+      "ملمس الورق اليدوي",
+      "فراغ هادئ"
+    ],
+    "good": [
+      "عناصر بسيطة يمكن تحديدها بضربة واحدة: أرنب، صبّار، منطاد هواء ساخن، زوج أحذية",
+      "لحظات يومية خفيفة مبهجة: نفخ الفقاعات، شخص يحمل زهوراً، قطة في الشمس",
+      "صور تريدها صورة شخصية أو ملصقاً أو خلفية أو بطاقة صغيرة منعشة زاهية"
+    ],
+    "poor": [
+      "طلب أرضية كرافت داكنة أو بنية أو ورق معتّق، فالورق هنا يبقى فاتحاً دائماً",
+      "صور تحتاج إلى خطوط دقيقة أو تتبع واقعي أو أيقونات صغيرة مفصلة",
+      "مشاهد كبيرة مليئة بالناس أو الأماكن تحتاج إلى إطار مملوء"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 ---
 name: xxd-panel-116
-description: "Create XXD Panel 116 raster artwork by translating a source photograph into a pale paper-ground pastel-crayon doodle with coarse chalk contours, sparse symbols, friendly source-derived colours, and generous whitespace. Supports isolated image or directory inputs and strict 50:50 top-bottom or left-right comparisons, design-only work, and wallpapers. Use when the user invokes xxd-panel-116 or asks for this pale-background pastel-doodle editorial style."
+description: "XXD Panel 116｜Pale-Paper Pastel Doodle Chronicle: redraws the core subject and mood of a photo as a pastel crayon doodle on very pale paper — loose, dry, slightly thick chalk or crayon outlines with powdery grain, broken colour, a light wobble and open edges, a few pastel patches, grids, stripes or dots inside, tiny one- or two-stroke doodles nearby, a small subject in large open space, a cream or near-white ground always lighter than the lines so everything stays legible, two to four soft pastels from the photo, and a few thin typewriter-style words. Dark kraft or brown grounds are avoided. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-116 or asks for pale-paper pastel doodle or crayon outline art from a photo."
 ---
 
 # XXD Panel 116
